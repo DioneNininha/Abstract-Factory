@@ -1,0 +1,26 @@
+package objetos;
+
+import abstratas.AbstractFactory;
+import abstratas.Som;
+import abstratas.TEclado;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public class FabricaYamaha extends AbstractFactory {
+	// filha da classe principal
+
+	@Override
+	public CaixaSom fabricarCaixaSom() {
+		return new CaixaSomYamaha();
+	}
+
+	@Override
+	public InstrTeclado fabricarInstrTeclado() {
+		return new TecladoYamaha();
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package objetos;
+
+import abstratas.Som;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public class CaixaSomRoland extends CaixaSom {
+
+	@Override
+	public void exibir() {
+
+		System.out.println("CaixaSom => Marca: Roland");
+	}
+}

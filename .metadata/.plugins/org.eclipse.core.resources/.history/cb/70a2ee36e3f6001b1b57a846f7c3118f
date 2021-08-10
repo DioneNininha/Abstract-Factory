@@ -1,0 +1,17 @@
+package objetos;
+
+import abstratas.Mouse;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public class CaixaSom extends Som {
+
+	@Override
+	public void exibir() {
+		
+		System.out.println("Mouse => Acer");
+	}
+}

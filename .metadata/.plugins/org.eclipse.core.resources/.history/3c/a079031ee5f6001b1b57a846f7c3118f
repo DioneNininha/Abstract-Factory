@@ -1,0 +1,17 @@
+package objetos;
+
+import abstratas.Som;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public class CaixaSom extends om {
+
+	@Override
+	public void exibir() {
+		
+		System.out.println("CaixaSom => Marca: Ya[maha");
+	}
+}

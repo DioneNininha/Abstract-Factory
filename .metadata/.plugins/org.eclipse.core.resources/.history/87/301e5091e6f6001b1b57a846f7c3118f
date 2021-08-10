@@ -1,0 +1,17 @@
+package objetos;
+
+import abstratas.Teclado;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public class TecladoRoland extends InstrTeclado {
+
+	@Override
+	public void exibir() {
+		
+		System.out.println("Teclado => MarcaRoland");
+	}
+}

@@ -1,0 +1,26 @@
+package objetos;
+
+import abstratas.AbstractFactory;
+import abstratas.Mouse;
+import abstratas.Notebook;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public class FabricaYamaha extends AbstractFactory {
+	// filha da classe principal
+
+	@Override
+	public CaixaSom fabricarCaixaSom() {
+		return new MouseAcer();
+	}
+
+	@Override
+	public Teclado fabricarInstrTeclado() {
+		return new NotebookAcer();
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package app;
+
+import objetos.FabricaYamaha;
+import objetos.FabricaGoias;
+/**
+ * 
+ * @author Dione
+ *
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("******************************");
+		System.out.println("<<<<<<< FABRICA YAMAHA >>>>>>>\n");
+	
+
+		FabricaYanaha yamaha = new FabricaYamaha();
+
+		yamaha.fabricarMouse().exibir();
+		yamaha.fabricarNotebook().exibir();
+		
+		System.out.println("\n******************************");
+		System.out.println("<<<<<<<<< FÁBRICA ROLAND >>>>>>>>\n");
+	
+
+		FabricaGoias goias = new FabricaGoias();
+
+		goias.fabricarMouse().exibir();
+		goias.fabricarNotebook().exibir();
+	}
+}

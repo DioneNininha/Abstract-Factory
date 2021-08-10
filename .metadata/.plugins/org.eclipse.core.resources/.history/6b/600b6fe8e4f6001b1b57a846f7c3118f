@@ -1,0 +1,13 @@
+package abstratas;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public abstract class AbstractFactory {
+
+	public abstract Som fabricarSom();
+
+	public abstract Notebook fabricarTeclado();
+}

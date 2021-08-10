@@ -1,0 +1,28 @@
+package objetos;
+
+import abstratas.AbstractFactory;
+import abstratas.CaixaSom;
+import abstratas.Teclado;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+
+public class FabricaRoland extends AbstractFactory {
+	// filha da classe principal
+
+	@Override
+	public CaixaSom fabricarCaixaSom() {
+
+		return new CaixaSomRoland();
+	}
+
+	@Override
+	public InstrTeclado fabricarInstrTeclado() {
+
+		return new TecladoRoland();
+	}
+
+}

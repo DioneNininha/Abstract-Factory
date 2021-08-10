@@ -1,0 +1,30 @@
+package app;
+
+import objetos.FabricaYamaha;
+import objetos.FabricaRoland;
+/**
+ * 
+ * @author Dione
+ *
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("********************************");
+		System.out.println("<<<<<<<<< FABRICA Y >>>>>>>\n");
+	
+		FabricaY y = new FabricaY();
+
+		y.fabricarCaixaSom().exibir();
+		y.fabricarInstrTeclado().exibir();
+		
+		System.out.println("\n********************************");
+		System.out.println("<<<<<<<<< FÁBRICA X >>>>>>>\n");
+	
+		FabricaX x = new FabricaX();
+
+		x.fabricarCaixaSom().exibir();
+		x.fabricarInstrTeclado().exibir();
+	}
+}

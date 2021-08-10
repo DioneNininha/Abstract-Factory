@@ -1,0 +1,28 @@
+package objetos;
+
+import abstratas.AbstractFactory;
+import abstratas.Mouse;
+import abstratas.Notebook;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+
+public class FabricaRoland extends AbstractFactory {
+	// filha da classe principal
+
+	@Override
+	public CaixaSom fabricarCaixaSom() {
+
+		return new MouseHp();
+	}
+
+	@Override
+	public Teclado fabricarteclado() {
+
+		return new NotebookHp();
+	}
+
+}

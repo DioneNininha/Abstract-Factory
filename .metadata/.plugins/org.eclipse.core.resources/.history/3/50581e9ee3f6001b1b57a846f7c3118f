@@ -1,0 +1,18 @@
+package objetos;
+
+import abstratas.Teclado;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public class TecladoYamaha extends Notebook {
+
+	@Override
+	public void exibir() {
+		
+		System.out.println("Teclado => Marca: Yamaha");
+	}
+
+}
